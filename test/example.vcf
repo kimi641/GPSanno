@@ -1,0 +1,12 @@
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+chr4	88929138	.	C	T	.	.	Polycystic kidney disease 2
+chr4	88996055	.	C	G	.	.	Polycystic kidney disease, autosomal dominant
+chr4	88940681	.	G	T	.	.	Polycystic kidney disease 2
+chr4	88996109	.	G	A	.	.	Polycystic kidney disease 2
+chr4	88957458	.	G	T	.	.	Polycystic kidney disease 2
+chr4	88964530	.	T	G	.	.	Polycystic kidney disease 2
+chrX	18646494	.	C	T	.	.	Rett syndrome, atypical
+chr14	29237250	.	G	A	.	.	Rett syndrome
+chr14	29237128	.	T	C	.	.	Rett syndrome
+chr11	5247859	.	G	A	.	.	Sickle cell anaemia
+chr11	5248232	.	T	A	.	.	Sickle cell anaemia

@@ -1,0 +1,59 @@
+HPOTERM,DISEASE,GENE,TYPE,PREDICTION,HPO
+Hepatomegaly,Sickle cell anemia,HBB,nonsynonymous SNV,probably_damaging,1
+Microcytic anemia,BETA-THALASSEMIA,HBB,nonsynonymous SNV,probably_damaging,1
+Macrocytic hemolytic disease,Sickle cell anemia,HBB,nonsynonymous SNV,probably_damaging,1
+Bone necrosis,Sickle cell anemia,HBB,nonsynonymous SNV,probably_damaging,1
+Osteomyelitis,Dominant beta-thalassemia,HBB,nonsynonymous SNV,probably_damaging,1
+Splenomegaly,Sickle cell anemia,HBB,nonsynonymous SNV,probably_damaging,1
+Cyanosis,Sickle cell anemia,HBB,nonsynonymous SNV,probably_damaging,1
+Heinz body anemia,HEINZ BODY ANEMIAS,HBB,nonsynonymous SNV,probably_damaging,1
+Priapism,Dominant beta-thalassemia,HBB,nonsynonymous SNV,probably_damaging,1
+Impaired renal concentrating ability,Dominant beta-thalassemia,HBB,nonsynonymous SNV,probably_damaging,1
+Bone necrosis,Dominant beta-thalassemia,HBB,nonsynonymous SNV,probably_damaging,1
+Erythrocytosis,Sickle cell anemia,HBB,nonsynonymous SNV,probably_damaging,1
+Heinz body anemia,Dominant beta-thalassemia,HBB,nonsynonymous SNV,probably_damaging,1
+Macrocytic hemolytic disease,Dominant beta-thalassemia,HBB,nonsynonymous SNV,probably_damaging,1
+Persistence of hemoglobin F,FETAL HEMOGLOBIN QUANTITATIVE TRAIT LOCUS 1,HBB,nonsynonymous SNV,probably_damaging,1
+Congenital dyserythropoietic anemia,BETA-THALASSEMIA,HBB,nonsynonymous SNV,probably_damaging,1
+Erythrocytosis,BETA-THALASSEMIA,HBB,nonsynonymous SNV,probably_damaging,1
+Increased red cell sickling tendency,Sickle cell anemia,HBB,nonsynonymous SNV,probably_damaging,1
+Priapism,Sickle cell anemia,HBB,nonsynonymous SNV,probably_damaging,1
+Jaundice,BETA-THALASSEMIA,HBB,nonsynonymous SNV,probably_damaging,1
+Hematuria,BETA-THALASSEMIA,HBB,nonsynonymous SNV,probably_damaging,1
+Splenomegaly,Dominant beta-thalassemia,HBB,nonsynonymous SNV,probably_damaging,1
+Hemolytic anemia,Dominant beta-thalassemia,HBB,nonsynonymous SNV,probably_damaging,1
+Increased red cell sickling tendency,Dominant beta-thalassemia,HBB,nonsynonymous SNV,probably_damaging,1
+Persistence of hemoglobin F,Sickle cell anemia,HBB,nonsynonymous SNV,probably_damaging,1
+Impaired renal concentrating ability,Sickle cell anemia,HBB,nonsynonymous SNV,probably_damaging,1
+Osteomyelitis,Sickle cell anemia,HBB,nonsynonymous SNV,probably_damaging,1
+Impaired renal concentrating ability,BETA-THALASSEMIA,HBB,nonsynonymous SNV,probably_damaging,1
+Osteomyelitis,BETA-THALASSEMIA,HBB,nonsynonymous SNV,probably_damaging,1
+Microcytic anemia,Sickle cell anemia,HBB,nonsynonymous SNV,probably_damaging,1
+Cholelithiasis,Dominant beta-thalassemia,HBB,nonsynonymous SNV,probably_damaging,1
+Hematuria,Dominant beta-thalassemia,HBB,nonsynonymous SNV,probably_damaging,1
+Cardiomegaly,Sickle cell anemia,HBB,nonsynonymous SNV,probably_damaging,1
+Persistence of hemoglobin F,Dominant beta-thalassemia,HBB,nonsynonymous SNV,probably_damaging,1
+Hemolytic anemia,BETA-THALASSEMIA,HBB,nonsynonymous SNV,probably_damaging,1
+Jaundice,Dominant beta-thalassemia,HBB,nonsynonymous SNV,probably_damaging,1
+Cyanosis,Dominant beta-thalassemia,HBB,nonsynonymous SNV,probably_damaging,1
+Hematuria,Sickle cell anemia,HBB,nonsynonymous SNV,probably_damaging,1
+Heinz body anemia,BETA-THALASSEMIA,HBB,nonsynonymous SNV,probably_damaging,1
+Splenomegaly,BETA-THALASSEMIA,HBB,nonsynonymous SNV,probably_damaging,1
+Increased red cell sickling tendency,BETA-THALASSEMIA,HBB,nonsynonymous SNV,probably_damaging,1
+Microcytic anemia,Dominant beta-thalassemia,HBB,nonsynonymous SNV,probably_damaging,1
+Nonspherocytic hemolytic anemia,HEINZ BODY ANEMIAS,HBB,nonsynonymous SNV,probably_damaging,1
+Hypochromic microcytic anemia,BETA-THALASSEMIA,HBB,nonsynonymous SNV,probably_damaging,1
+Retinopathy,Sickle cell anemia,HBB,nonsynonymous SNV,probably_damaging,1
+Heinz body anemia,Sickle cell anemia,HBB,nonsynonymous SNV,probably_damaging,1
+Bone necrosis,BETA-THALASSEMIA,HBB,nonsynonymous SNV,probably_damaging,1
+Jaundice,Sickle cell anemia,HBB,nonsynonymous SNV,probably_damaging,1
+Persistence of hemoglobin F,BETA-THALASSEMIA,HBB,nonsynonymous SNV,probably_damaging,1
+Erythrocytosis,Dominant beta-thalassemia,HBB,nonsynonymous SNV,probably_damaging,1
+Congenital dyserythropoietic anemia,Dominant beta-thalassemia,HBB,nonsynonymous SNV,probably_damaging,1
+Hemolytic anemia,Sickle cell anemia,HBB,nonsynonymous SNV,probably_damaging,1
+Macrocytic hemolytic disease,BETA-THALASSEMIA,HBB,nonsynonymous SNV,probably_damaging,1
+Cholelithiasis,BETA-THALASSEMIA,HBB,nonsynonymous SNV,probably_damaging,1
+Priapism,BETA-THALASSEMIA,HBB,nonsynonymous SNV,probably_damaging,1
+Cyanosis,BETA-THALASSEMIA,HBB,nonsynonymous SNV,probably_damaging,1
+Cholelithiasis,Sickle cell anemia,HBB,nonsynonymous SNV,probably_damaging,1
+Congenital dyserythropoietic anemia,Sickle cell anemia,HBB,nonsynonymous SNV,probably_damaging,1
