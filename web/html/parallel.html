@@ -98,7 +98,7 @@ pre, code { font-family: "Menlo", monospace; }
 				  <select id="Disease" class="selectpicker" title="Disease" multiple data-live-search="true" data-live-search-placeholder="Search" data-hide-disabled="true" data-size="5">
 				  </select>
 				  <select id="Phenotype" class="selectpicker" title="Phenotype" multiple data-live-search="true" data-live-search-placeholder="Search" data-hide-disabled="true" data-size="5">
-				  </select>
+				  </select>				  
 				  <button id="Button" type="button" class="btn btn-default">Search</button>
 				  <button id="Return" type="botton" class="btn btn-default" onclick=window.location.replace("../summary.html")>Return to Summay</button>
 				  </div>
@@ -107,6 +107,7 @@ pre, code { font-family: "Menlo", monospace; }
 		</nav>
 <div id="vis"><noscript></noscript></div>
 <script>
+var dim = ["HGMD","MedGen","HPO"];
 var chart = d3.parsets()
     .dimensions(["Source","Gene","Disease","Phenotype"]);
 
@@ -133,9 +134,6 @@ function load(gval,dval,pval){
 		csv.forEach(function(d){
 			//alert(d['Gene']);
 			var keep = 0;
-			gene.push(d['Gene']);
-			disease.push(d['Disease']);
-			phenotype.push(d['Phenotype']);
 			if (gval == ''){
 				keep ++;
 			}else if($.inArray(d['Gene'],gval) != -1){
@@ -159,11 +157,17 @@ function load(gval,dval,pval){
 			}
 			if(keep > 0){
 				newcsv.push(d);
+				gene.push(d['Gene']);
+				disease.push(d['Disease']);
+				phenotype.push(d['Phenotype']);
 			}
 		});
 		gene = jQuery.uniqueSort(gene);
 		disease = jQuery.uniqueSort(disease);
 		phenotype = jQuery.uniqueSort(phenotype);
+		$('#Gene').empty();
+		$('#Disease').empty();
+		$('#Phenotype').empty();
 		gene.forEach(function(d){
 			$('#Gene').append("<option>" + d + "</option>");
 		});

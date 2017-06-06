@@ -46,7 +46,18 @@
 </div>
 <script>
 function nameFormatter(value){
-	return '<a href="https://www.ncbi.nlm.nih.gov/pubmed/' + value + '">' + value + '</a>';
+	if (value.indexOf(",") != -1){
+		var array = value.split(",");
+		var newarr = array.map(function(d){
+			return '<a href="https://www.ncbi.nlm.nih.gov/pubmed/' + d + '">' + d + '</a>';
+		});
+		return newarr;
+		
+	}else if(value != ''){
+		return '<a href="https://www.ncbi.nlm.nih.gov/pubmed/' + value + '">' + value + '</a>';
+	}else
+		return "Null";
+	}
 }
 </script>
 </body>

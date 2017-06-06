@@ -107,7 +107,7 @@ svg.append("svg:g")
     .attr("y1", "100%");
 	
 	
-load("all");
+load('');
 
 function load(val){
 	d3.json("data/bar.json", function(root) {
@@ -116,12 +116,12 @@ function load(val){
 	  var dropdown = $("#Phenotype");
 	  var tags = root.children;
 	  tags = jQuery.uniqueSort(tags);
+	  dropdown.empty();
 	  tags.forEach(function(d){
 		dropdown.append("<option>" + d.name +  "</option>");
 	  });
-		  //.append("<option>" +  +  "</option>");
-	  $("#Phenotype").selectpicker('refresh');
-	  if(val == "all" || val == ''){
+		  //.append("<option>" +  +  "</option>");	  
+	  if(val == ''){
 		down(root,0);
 	  }
 	  else{
@@ -134,7 +134,9 @@ function load(val){
 			root.children = newchildren;
 			x.domain([0, root.value]).nice();
 			down(root,0);
+			dropdown.selectpicker('val');	
 		}
+		$("#Phenotype").selectpicker('refresh');
 	});
 }
 
