@@ -92,6 +92,10 @@ our %htmlhash = (
 	"benign"		=> 0
 	);
 
+
+unless(-e "$Bin/data"){
+	die "Please download data diretory to GPSanno dirctory\n";
+}
 #Use HGMD annotate annovar results
 
 my ($vcfin, $out, $maf, $family) = &getopts(@ARGV);
@@ -1082,6 +1086,7 @@ sub exporttable()
 	close(OUT);
 }
 
+#export json to output
 sub exportjson
 {
 	my $out = shift;
@@ -1191,6 +1196,7 @@ sub exportpara
 	close(OUT);
 }
 
+#check vcf file format
 sub check
 {
 	my $vcfin = shift;
