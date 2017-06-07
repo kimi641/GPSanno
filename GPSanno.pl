@@ -332,7 +332,7 @@ sub casesearch()
 	my $hgvs = shift;
 	my $type = shift;
 	my $prediction = shift;
-	my $pmid = "null";
+	my $pmid = "";
 	my $count = 0;
 	my $disease = "null";
 	if (exists $$casehash{$gene}){
