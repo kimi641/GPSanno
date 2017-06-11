@@ -763,7 +763,7 @@ sub anno()
 				#warn $hpocounts[0],"\n";
 			}
 		}
-		if ($hpocounts[0] > 0){
+		if ($hpocounts[0] > 0 or @diseases){
 			goto PTABLE;
 		}
 		my $medcount = &medsearch($gene,$type,$prediction);
