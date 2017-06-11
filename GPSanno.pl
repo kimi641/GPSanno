@@ -598,7 +598,7 @@ sub anno()
 			#warn $hpocounts[0],"\n";
 		}
 		@genes = &uniq(@genes);
-		if ($hpocounts[0] > 0){
+		if ($hpocounts[0] > 0 or @diseases){
 			goto PTABLE;
 		}
 		for my $gene(@genes){
@@ -717,10 +717,7 @@ sub anno()
 		$typekey  =~ s/\s/_/g;
 		$htmlhash{$typekey} += 1;
 		next if $info_hgvs =~ /UNKNOWN/;
-		next if $type eq "synonymous SNV"; 
 		#get pph2 prediction
-		my $pph2_key = "$chr\_$start";
-		my $pph2_value;
 		my $precoord = "$chr"."_$start";
 		my $prediction = &searchpre($precoord,$alt);
 		$htmlhash{$prediction} += 1;
