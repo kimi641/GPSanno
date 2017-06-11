@@ -35,7 +35,7 @@ sub exporthtml
 	print OUT "<tr bgcolor=ffffff><td valign=top><b> Command line arguments </b></td><td> $$phash{cmd} </td></tr>\n";
 	print OUT "<tr bgcolor=dddddd><td vailgn=top><b> Number of variants (all) </b></td><td> $$phash{variants_all} </td></tr>\n";
 	print OUT "<tr bgcolor=ffffff><td valign=top><b> Number of variants (keep) </b></td><td> $$phash{variants_fl} </td></tr>\n";
-	print OUT "<tr bgcolor=dddddd><td vailgn=top><b> Numver of variants (annotated) </b></td><td> $$phash{variants_anno} </td></tr>\n";
+	print OUT "<tr bgcolor=dddddd><td vailgn=top><b> Number of variants (annotated) </b></td><td> $$phash{variants_anno} </td></tr>\n";
 	print OUT "</table><p></center>\n";
 	print OUT "<hr><a name=\"varChr\">\n";
 	print OUT "<center><b> Variants detail by chromsome </b><p>\n";
